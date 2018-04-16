@@ -1,0 +1,13 @@
+
+#Wrapper h1{padding:10px 0;}
+
+/* 後ろの灰色と再度の線を消す */
+body{background:url();}
+#GlobalFooter, #Wrapper{border:none;}
+
+/* カレンダー微調整 */
+#CorporateEvent .calendar .table section{margin:0 18px 0 0;}
+#CorporateEvent .calendar .table section table th{text-align:center;}
+
+/* 写真スライドの○の調整 */
+#PhotoSlide .pointer li{width:24px;}

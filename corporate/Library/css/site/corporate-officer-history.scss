@@ -1,0 +1,340 @@
+﻿
+@media screen and (min-width:769px) {
+    #officer-history {
+
+
+        .title_bar {
+            text-align: center;
+
+            h2 {
+                font-size: calc(24px + 0.5vw);
+                display: inline-block;
+                border-bottom: 2px solid #d7003a;
+                margin: 50px 0;
+            }
+        }
+
+        #main {
+            max-width: 1240px;
+            width: 100%;
+            margin: 0 auto;
+
+            .officer {
+                width: 100%;
+                height: 370px;
+                padding: 40px;
+                margin: 30px 0;
+                background-color: #F9F9F9;
+
+                .officer-image {
+                    max-width: 238px;
+                    width: 100%;
+                    display: inline-block;
+                    vertical-align: top;
+
+                    img {
+                        width: 100%;
+                    }
+
+                    &.pic2 {
+                        width: auto;
+                        padding: 0 35px 0 10px;
+
+                        img {
+                            width: auto;
+                        }
+                    }
+
+                    &.pic3 {
+                        max-width: 200px;
+                        margin-right: 38px;
+                    }
+
+                    &.no-image {
+                        text-align: center;
+                        margin-top: 100px;
+
+                        span {
+                            font-size: calc(18px + 0.25vw);
+                            font-family: 'Noto Sans Japanese', sans-serif;
+                        }
+                    }
+                }
+
+                .officer-intro {
+                    width: 75%;
+                    padding-left: 40px;
+                    display: inline-block;
+
+                    .name {
+                        font-size: calc(24px + 0.25vw);
+                        font-family: 'Noto Sans Japanese', sans-serif;
+                    }
+
+                    .title {
+                        font-size: calc(18px + 0.25vw);
+                        font-family: 'Noto Sans Japanese', sans-serif;
+                    }
+
+                    .intro {
+                        font-size: calc(12px + 0.25vw);
+                        font-family: 'Noto Sans Japanese', sans-serif;
+                        color: #454545;
+                        padding-left: 5px;
+                    }
+                }
+            }
+
+            .officer-half {
+                width: 49%;
+                height: 370px;
+                padding: 20px;
+                margin: 15px 5px;
+                background-color: #F9F9F9;
+                display: inline-block;
+                vertical-align: top;
+
+                .officer-image {
+                    max-width: 150px;
+                    width: 100%;
+                    display: inline-block;
+                    vertical-align: top;
+
+                    img {
+                        width: 100%;
+                    }
+
+                    &.pic2 {
+                        width: auto;
+                        padding: 0 35px 0 10px;
+
+                        img {
+                            width: auto;
+                        }
+                    }
+
+                    &.no-image {
+                        text-align: center;
+                        margin-top: 100px;
+
+                        span {
+                            font-size: calc(14px + 0.25vw);
+                            font-family: 'Noto Sans Japanese', sans-serif;
+                        }
+                    }
+                }
+
+                .officer-intro {
+                    width: 70%;
+                    padding-left: 20px;
+                    display: inline-block;
+
+                    .name {
+                        font-size: calc(20px + 0.25vw);
+                        font-family: 'Noto Sans Japanese', sans-serif;
+                    }
+
+                    .title {
+                        font-size: calc(14px + 0.25vw);
+                        font-family: 'Noto Sans Japanese', sans-serif;
+                    }
+
+                    .intro {
+                        font-size: calc(10px + 0.25vw);
+                        font-family: 'Noto Sans Japanese', sans-serif;
+                        color: #454545;
+                        padding-left: 5px;
+                    }
+                }
+            }
+        }
+
+        .pic {
+            img {
+                width: 238px;
+            }
+        }
+
+        .pic2 {
+            img {
+                width: 192px;
+            }
+        }
+
+        .no-pic {
+            width: 258px;
+            display: block;
+            text-align: center;
+            margin-top: 100px;
+        }
+    }
+}
+@media screen and (max-width:768px)
+{
+    #officer-history {
+
+        .title_bar {
+            text-align: center;
+
+            h2 {
+                font-size: calc(24px + 0.5vw);
+                display: inline-block;
+                border-bottom: 2px solid #d7003a;
+                margin: 20px 0;
+            }
+        }
+
+        #main {
+            max-width: 1240px;
+            width: 100%;
+            margin: 0 auto;
+
+            .officer {
+                width: 100%;
+                height: 400px;
+                padding: 10px;
+                margin: 30px 0;
+                background-color: #F9F9F9;
+
+                .officer-image {
+                    width: 24%;
+                    display: inline-block;
+                    vertical-align: top;
+
+                    img {
+                        width: 100%;
+                    }
+
+                    &.pic2 {
+                        width: auto;
+                        padding: 0 35px 0 10px;
+
+                        img {
+                            width: auto;
+                        }
+                    }
+
+                    &.pic3 {
+                        max-width: 200px;
+                        margin-right: 38px;
+                    }
+
+                    &.no-image {
+                        text-align: center;
+                        margin-top: 100px;
+
+                        span {
+                            font-size: calc(18px + 0.25vw);
+                            font-family: 'Noto Sans Japanese', sans-serif;
+                        }
+                    }
+                }
+
+                .officer-intro {
+                    width: 74%;
+                    padding-left: 10px;
+                    display: inline-block;
+
+                    .name {
+                        font-size: calc(24px + 0.25vw);
+                        font-family: 'Noto Sans Japanese', sans-serif;
+                    }
+
+                    .title {
+                        font-size: calc(18px + 0.25vw);
+                        font-family: 'Noto Sans Japanese', sans-serif;
+                    }
+
+                    .intro {
+                        font-size: calc(12px + 0.25vw);
+                        font-family: 'Noto Sans Japanese', sans-serif;
+                        color: #454545;
+                        padding-left: 5px;
+                    }
+                }
+            }
+
+            .officer-half {
+                width: 100%;
+                height: 300px;
+                padding: 20px;
+                margin: 15px 5px;
+                background-color: #F9F9F9;
+                display: inline-block;
+                vertical-align: top;
+
+                .officer-image {
+                    width: 24%;
+                    display: inline-block;
+                    vertical-align: top;
+
+                    img {
+                        width: 100%;
+                    }
+
+                    &.pic2 {
+                        width: auto;
+                        padding: 0 35px 0 10px;
+
+                        img {
+                            width: auto;
+                        }
+                    }
+
+                    &.no-image {
+                        text-align: center;
+                        margin-top: 100px;
+
+                        span {
+                            font-size: calc(14px + 0.25vw);
+                            font-family: 'Noto Sans Japanese', sans-serif;
+                        }
+                    }
+                }
+
+                .officer-intro {
+                    width: 70%;
+                    padding-left: 10px;
+                    display: inline-block;
+
+                    .name {
+                        font-size: calc(20px + 0.25vw);
+                        font-family: 'Noto Sans Japanese', sans-serif;
+                    }
+
+                    .title {
+                        font-size: calc(14px + 0.25vw);
+                        font-family: 'Noto Sans Japanese', sans-serif;
+                    }
+
+                    .intro {
+                        font-size: calc(10px + 0.25vw);
+                        font-family: 'Noto Sans Japanese', sans-serif;
+                        color: #454545;
+                        padding-left: 5px;
+                    }
+                }
+            }
+        }
+
+        .pic {
+            img {
+                width: 238px;
+            }
+        }
+
+        .pic2 {
+            img {
+                width: 192px;
+            }
+        }
+
+        .no-pic {
+            width: 238px;
+            display: block;
+            text-align: center;
+            margin-top: 100px;
+        }
+    }
+
+}

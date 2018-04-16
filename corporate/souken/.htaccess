@@ -1,0 +1,1 @@
+RedirectMatch permanent ^/corporate/souken/index.php /mieruka/textmininglab/index.php

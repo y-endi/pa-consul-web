@@ -1,0 +1,133 @@
+﻿
+/*コーポレートヘッダ*/
+#CorporateHeader {
+    margin-top: 0px;
+    height: 59px;
+}
+
+#CorporateHeader {
+    img {
+        width: auto;
+    }
+
+    nav {
+        background: white;
+        box-shadow: 0 2px 4px rgba(128, 128, 128, 0.3);
+
+        li {
+            a {
+                transition: .3s;
+                margin-top: 5px;
+                width: 120px;
+                text-align: center;
+
+                &:hover {
+                    &::after {
+                        width: 100%;
+                    }
+                }
+            }
+
+            span {
+                display: none;
+            }
+        }
+
+        button {
+            span {
+                &.icon-bar {
+                    background: #ce4040;
+                }
+            }
+        }
+
+        .inline {
+            max-width: 1200px;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .tel {
+            margin-left: 19px;
+        }
+
+        .Logo {
+            width: 3.5em;
+            float: left;
+        }
+    }
+
+    .Name {
+        margin-top: 5px
+    }
+}
+
+@media screen and (min-width:769px) {
+    #CorporateHeader {
+        nav {
+            li {
+                a {
+                    &:hover {
+                        color: #7d0004;
+                        background: none;
+                    }
+                }
+            }
+        }
+
+        .navbar-nav > li {
+            width: auto;
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    #CorporateHeader {
+        height: 52px;
+
+        nav {
+            position: absolute;
+
+            a {
+                h1 {
+                    display: none;
+                }
+            }
+
+            ul {
+                li {
+                    width: 95%;
+                    background: #af0000;
+                    margin: 5px;
+
+                    a {
+                        color: white;
+                        padding: 10px;
+                        text-align: left;
+                        width: 100%;
+                    }
+
+                    &:hover {
+                        color: black;
+                    }
+
+                    span {
+                        display: block;
+                    }
+                }
+
+                .tel {
+                    display: none;
+                }
+            }
+
+            #gnavi {
+                margin-left: 5px;
+            }
+        }
+
+        .Name {
+            display: none;
+        }
+    }
+}

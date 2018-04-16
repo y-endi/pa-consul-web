@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+	<loc>http://www.pa-consul.co.jp/</loc>
+    <changefreq>hourly</changefreq>
+    </url>
+    
+    <url>
+    <loc>http://www.pa-consul.co.jp/corporate/information/</loc>
+    <changefreq>hourly</changefreq>
+    </url>
+    
+	<url>
+	<loc>http://www.pa-consul.co.jp/mieruka/</loc>
+    <changefreq>hourly</changefreq>
+    </url>
+
+  <url>
+    <loc>http://www.pa-consul.co.jp/mieruka/textmining.html</loc>
+    <changefreq>hourly</changefreq>
+  </url>
+    
+	<url>
+	<loc>http://www.pa-consul.co.jp/cr/</loc>
+    <changefreq>hourly</changefreq>
+    </url>
+
+  <url>
+    <loc>http://www.pa-consul.co.jp/alphascope/</loc>
+    <changefreq>hourly</changefreq>
+  </url>
+
+  <url>
+    <loc>http://www.pa-consul.co.jp/alphascope/faq.html</loc>
+    <changefreq>hourly</changefreq>
+  </url>
+
+  <url>
+    <loc>http://www.pa-consul.co.jp/cr/scene/apparel.html</loc>
+  </url>
+
+  <url>
+    <loc>http://www.pa-consul.co.jp/TalentPalette/</loc>
+    <changefreq>hourly</changefreq>
+  </url>
+
+</urlset>

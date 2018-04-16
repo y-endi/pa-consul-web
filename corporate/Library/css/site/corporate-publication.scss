@@ -1,0 +1,196 @@
+﻿
+@media screen and (min-width:769px) {
+    .publication {
+        .section {
+            width: 100%;
+            max-width: 1240px;
+            margin: 0 auto;
+
+            &.contents {
+                max-width: 100vw;
+            }
+
+            .title_bar {
+                text-align: center;
+
+                h2 {
+                    font-size: calc(24px + 0.5vw);
+                    display: inline-block;
+                    border-bottom: 2px solid #d7003a;
+                    margin: 50px 0;
+                }
+            }
+
+            &.books {
+                .book-outer {
+                    padding: 20px 0;
+                    border-bottom: 1px solid #dedede;
+
+                    &:last-child {
+                        border-bottom: 0px solid #dedede;
+                    }
+
+                    .word {
+                        padding: 20px 0;
+
+                        .title {
+                            font-size: calc(24px + 0.25vw);
+                        }
+                    }
+
+                    .book-inner {
+                        width: 100%;
+                        display: flex;
+                        margin: 0;
+
+                        > dt {
+                            flex-basis: 19.9%;
+
+                            img {
+                                width: auto;
+                            }
+                        }
+
+                        > dd {
+                            flex-basis: 79.9%;
+
+                            div {
+                                p {
+                                    font-size: calc(24px - 0.25vw);
+                                }
+
+                                > dl {
+                                    width: 100%;
+                                    display: flex;
+                                    margin: 0;
+
+                                    > dt {
+                                        flex-basis: 69.9%;
+                                        font-size: calc(24px - 0.25vw);
+                                        font-weight: 300;
+                                    }
+
+                                    > dd {
+                                        flex-basis: 39.9%;
+                                        text-align: right;
+
+                                        a {
+                                            transition: all .3s;
+
+                                            img {
+                                                width: auto;
+                                            }
+
+                                            &:hover {
+                                                opacity: .7;
+                                                cursor: pointer;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .publication {
+        .section {
+            width: 100%;
+            max-width: 1240px;
+            margin: 0 auto;
+
+            &.contents {
+                max-width: 100vw;
+            }
+
+            .title_bar {
+                text-align: center;
+
+                h2 {
+                    font-size: calc(24px + 0.5vw);
+                    display: inline-block;
+                    border-bottom: 2px solid #d7003a;
+                    margin: 20px 0;
+                }
+            }
+
+            &.books {
+                .book-outer {
+                    padding: 20px 10px;
+                    border-bottom: 1px solid #dedede;
+
+                    &:last-child {
+                        border-bottom: 0px solid #dedede;
+                    }
+
+                    .word {
+                        padding: 20px 0;
+
+                        .title {
+                            font-size: calc(24px - 0.55vw);
+                        }
+                    }
+
+                    .book-inner {
+                        width: 100%;
+                        margin: 0;
+
+                        > dt {
+                            text-align: center;
+                            width: 100%;
+                            padding-bottom: 10px;
+
+                            img {
+                                width: auto;
+                            }
+                        }
+
+                        > dd {
+                            width: 100%;
+
+                            div {
+                                p {
+                                    font-size: calc(24px - 1vw);
+                                }
+
+                                > dl {
+                                    width: 100%;
+                                    margin: 0;
+
+                                    > dt {
+                                        width: 100%;
+                                        font-size: calc(24px - 1vw);
+                                        font-weight: 300;
+                                        padding: 10px 0;
+                                    }
+
+                                    > dd {
+                                        width: 100%;
+
+                                        a {
+                                            transition: all .3s;
+
+                                            img {
+                                                width: auto;
+                                            }
+
+                                            &:hover {
+                                                opacity: .7;
+                                                cursor: pointer;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

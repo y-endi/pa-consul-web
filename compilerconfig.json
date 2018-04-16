@@ -1,0 +1,22 @@
+﻿[
+  {
+    "outputFile": "mieruka/en/css/MierukaEn.css",
+    "inputFile": "mieruka/en/css/MierukaEn.scss"
+  },
+  {
+    "outputFile": "TalentPalette/css/talent.css",
+    "inputFile": "TalentPalette/css/talent.scss"
+  },
+  {
+    "outputFile": "cr/Library/css/CustomerRings.css",
+    "inputFile": "cr/Library/css/CustomerRings.scss"
+  },
+  {
+    "outputFile": "mieruka/Library/css/Mieruka.css",
+    "inputFile": "mieruka/Library/css/Mieruka.scss"
+  },
+  {
+    "outputFile": "corporate/Library/css/Corporate.css",
+    "inputFile": "corporate/Library/css/Corporate.scss"
+  }
+]

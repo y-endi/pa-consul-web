@@ -1,0 +1,58 @@
+﻿
+#CorporateFooter {
+    background-color: dimgrey;
+    color: white;
+    padding: 5px;
+
+    ul {
+        margin-bottom: 0px;
+
+        li {
+            padding-left: 25px;
+            padding-right: 25px;
+
+            a {
+                color: white;
+            }
+        }
+    }
+}
+#topFooterLink {
+    font-size: 15px;
+    color: #777;
+    background-color: #FFF;
+    text-shadow: 1px 1px 1px #EEEEEE;
+    padding: 15px 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+    box-shadow: 0 1px 0 rgba(255,255,255,1);
+
+    .title {
+        padding: 5px 0;
+        font-weight: bold;
+    }
+
+    .list-group-item {
+        font-size: 11.5px;
+        color: #808080;
+        border: none;
+        transition: all .3s;
+        line-height: 12px;
+        padding: 10px 15px 10px 3px;
+
+        &:hover {
+            color: #FFF;
+            background-color: #a9a9a9;
+        }
+    }
+
+    .col-lg-1,
+    .col-md-1,
+    .col-md-1 {
+        width: 12.333333%;
+    }
+}
+
+@media screen and (min-width:769px) {
+}
+@media screen and (max-width:768px) {
+}

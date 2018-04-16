@@ -1,0 +1,180 @@
+﻿
+@media screen and (min-width:769px) {
+    #history {
+        #main {
+            width: 100%;
+            max-width: 1240px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 0 80px;
+
+            h2 {
+                font-size: calc(24px + 0.5vw);
+                display: inline-block;
+                border-bottom: 2px solid #d7003a;
+                margin: 50px 0;
+            }
+
+            .year {
+
+                .about-table {
+                    width: 100%;
+                    border-top: solid 1px #eee;
+                    padding: 25px 0;
+                    margin: 0;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -ms-flex-pack: justify;
+                    justify-content: space-between;
+                    text-align: left;
+
+                    > dt {
+                        -ms-flex-preferred-size: 23%;
+                        flex-basis: 23%;
+                        font-size: 16px;
+                        font-size: 1.6rem;
+                        line-height: 1.6875em;
+                        letter-spacing: .1em;
+                    }
+
+                    > dd {
+                        -ms-flex-preferred-size: 74.33333%;
+                        flex-basis: 74.33333%;
+                        font-size: 16px;
+                        font-size: 1.6rem;
+                        line-height: 1.6875em;
+                        letter-spacing: .1em;
+                        color: #333;
+
+                        > .inner-table {
+                            display: -ms-flexbox;
+                            display: flex;
+                            border: none;
+                            border-top: solid 1px #eee;
+                            padding: 20px 0;
+                            margin-bottom: 5px;
+
+                            > dt {
+                                flex-basis: 24.9%;
+                                -ms-flex-preferred-size: 215px;
+                                flex-basis: 215px;
+                                font-size: 16px;
+                                font-size: 1.6rem;
+                                line-height: 1.6875em;
+                                letter-spacing: .1em;
+                                font-weight: 500;
+                            }
+
+                            > dd {
+                                flex-basis: 74.9%;
+                                font-size: 16px;
+                                font-size: 1.6rem;
+                                line-height: 1.6875em;
+                                letter-spacing: .1em;
+                            }
+                        }
+
+                        > .inner-table:first-child {
+                            border-top: none;
+                            padding: 0 0 20px 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:768px) {
+    #history {
+        #main {
+            width: 100%;
+            max-width: 640px;
+            margin: 0 auto;
+            padding-top: 10px;
+            text-align: center;
+
+            h2 {
+                font-size: calc(24px + 0.5vw);
+                display: inline-block;
+                border-bottom: 2px solid #d7003a;
+                margin: 20px 0;
+            }
+
+            .year {
+
+                .about-table {
+                    width: 100%;
+                    border-top: none;
+                    padding: 0;
+                    margin: 0;
+                    display: block;
+                    text-align: left;
+
+                    > dt {
+                        width: 100%;
+                        font-size: 30px;
+                        font-size: calc(24px - .5vw);
+                        line-height: 1em;
+                        display: block;
+                        background: #eee;
+                        padding: 13px 3.84615%;
+                        box-sizing: border-box;
+                    }
+
+                    > dd {
+                        width: 100%;
+                        font-size: 30px;
+                        font-size: calc(24px - 2vw);
+                        line-height: 1.8em;
+                        display: block;
+                        padding: 15px 3.84615%;
+                        box-sizing: border-box;
+
+                        h3 {
+                            font-weight: bold;
+                        }
+
+                        span {
+                            font-size: calc(24px - 1.75vw);
+                        }
+
+                        > .inner-table {
+                            display: -ms-flexbox;
+                            display: flex;
+                            border: none;
+                            border-top: solid 1px #eee;
+                            padding: 10px 0;
+                            margin-bottom: 5px;
+
+                            > dt {
+                                -ms-flex-preferred-size: 215px;
+                                flex-basis: 24.9%;
+                                font-size: 16px;
+                                font-size: 1.6rem;
+                                line-height: 1.6875em;
+                                letter-spacing: .1em;
+                                font-weight: 500;
+                                background: #fff;
+                                padding: 0;
+                            }
+
+                            > dd {
+                                flex-basis: 74.9%;
+                                font-size: 16px;
+                                font-size: 1.6rem;
+                                line-height: 1.6875em;
+                                letter-spacing: .1em;
+                                padding: 0;
+                            }
+                        }
+
+                        > .inner-table:first-child {
+                            border-top: none;
+                            padding: 0 0 20px 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,597 @@
+﻿
+@media screen and (min-width:769px){
+    .product {
+        .section {
+            width: 100%;
+            max-width: 1240px;
+            margin: 0 auto;
+
+            &.contents {
+                max-width: 100vw;
+            }
+
+            .title_bar {
+                text-align: center;
+
+                h2 {
+                    font-size: calc(24px + 0.5vw);
+                    display: inline-block;
+                    border-bottom: 2px solid #d7003a;
+                    margin: 50px 0;
+                }
+            }
+
+            .word {
+                text-align: center;
+                font-size: calc(24px - .25vw);
+                font-weight: bold;
+                padding: 20px 0;
+
+                h3 {
+                    display: inline-block;
+                    vertical-align: middle;
+                    margin: 20px 0;
+                }
+
+                img {
+                    display: inline-block;
+                    margin-bottom: 10px;
+                }
+            }
+
+            &.product {
+                img {
+                    width: 100%;
+                    max-width: 900px;
+                    padding: 50px 0;
+                    display: block;
+                    margin: auto;
+                }
+
+                .word {
+                    text-align: left;
+                }
+
+                .title {
+                    font-size: calc(24px + 0.25vw);
+                }
+
+                .subTitle {
+                    font-size: calc(24px - 0.25vw);
+                    padding: 10px 0;
+                    display: inline-block;
+                }
+
+                .text {
+                    font-size: calc(24px - 0.25vw);
+                    font-weight: 300;
+                }
+            }
+
+            &.solution {
+
+                .title {
+                    font-size: calc(24px + 0.25vw);
+                    display: inline-block;
+                    padding: 10px 0;
+                }
+
+                .subTitle {
+                    font-size: calc(24px - 0.25vw);
+                    padding: 10px 0;
+                    display: inline-block;
+                }
+
+                .text {
+                    font-size: calc(24px - 0.25vw);
+                    font-weight: 300;
+                }
+
+                .sol-list {
+                    width: 100%;
+                    max-width: 930px;
+                    margin: 10px auto;
+                    padding: 20px;
+                    border: 1px solid #eee;
+                    border-radius: 5px;
+                    box-shadow: 0 0 5px rgba(0,0,0,.2);
+                    -webkit-box-shadow: 0 0 5px rgba(0,0,0,.2);
+
+
+                    .sol-detail {
+                        width: 100%;
+                        display: flex;
+                        margin: 0;
+
+                        > dt {
+                            flex-basis: 29.9%;
+
+                            img {
+                                width: auto;
+                            }
+                        }
+
+                        > dd {
+                            flex-basis: 69.9%;
+
+                            img {
+                                width: auto;
+                            }
+                        }
+
+                        .sol-detail-table {
+                            flex-basis: 69.9%;
+                            margin: 20px 0;
+
+                            > dt, > dd {
+                                flex-basis: 49.9%;
+                                font-size: calc(24px - 0.5vw);
+                                /* css checkbox01 */
+                                label {
+                                    width: 49%;
+                                }
+
+                                .checkbox01-input {
+                                    display: none;
+                                }
+
+                                .checkbox01-parts {
+                                    padding-left: 20px;
+                                    position: relative;
+                                    margin-right: 20px;
+                                }
+
+                                .checkbox01-parts::before {
+                                    content: "";
+                                    display: block;
+                                    position: absolute;
+                                    top: 3px;
+                                    left: -2px;
+                                    width: 18px;
+                                    height: 18px;
+                                    border: 2px solid #C1D5E1;
+                                    border-radius: 4px;
+                                }
+
+                                .checkbox01-input + .checkbox01-parts {
+                                    color: #3F3F3F;
+                                }
+
+                                .checkbox01-input + .checkbox01-parts::after {
+                                    content: "";
+                                    display: block;
+                                    position: absolute;
+                                    top: 0px;
+                                    left: 5px;
+                                    width: 10px;
+                                    height: 17px;
+                                    transform: rotate(40deg);
+                                    border-bottom: 3px solid #c1d5e1;
+                                    border-right: 3px solid #c1d5e1;
+                                }
+                            }
+                        }
+                    }
+
+                    .sol-link {
+                        width: 100%;
+                        display: flex;
+                        padding-top: 20px;
+                        border-top: 1px solid #ddd;
+
+                        > dt {
+                            flex-basis: 69.6%;
+                        }
+
+                        > dd {
+                            flex-basis: 29.9%;
+                            text-align: center;
+
+                            img {
+                                transition: all .3s;
+
+                                &:hover {
+                                    opacity: .7;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                    }
+
+                    &.me {
+                    }
+
+                    &.cr {
+                        .sol-detail {
+                            > dd {
+                                span {
+                                    font-size: calc(24px - 0.25vw);
+                                    color: #157EBE;
+                                }
+
+                                img {
+                                    width: 60%;
+                                    margin: 0 auto;
+                                }
+
+                                .sol-detail-table {
+                                    > dt, > dd {
+                                        span {
+                                            font-size: calc(24px - 0.5vw);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    &.as {
+                        .sol-detail-table {
+                            > dt, > dd {
+                                .checkbox01-parts::before {
+                                    border: 2px solid #F3D3D7;
+                                }
+
+                                .checkbox01-input + .checkbox01-parts::after {
+                                    border-bottom: 3px solid #F3D3D7;
+                                    border-right: 3px solid #F3D3D7;
+                                }
+                            }
+                        }
+                    }
+
+                    &.tl {
+                        .sol-detail-table {
+                            > dt, > dd {
+                                label {
+                                    .text_01 {
+                                        color: #F4B51D !important;
+                                    }
+
+                                    .text_02 {
+                                        color: #29C738 !important;
+                                    }
+
+                                    .text_03 {
+                                        color: #28A7E1 !important;
+                                    }
+
+                                    .text_04 {
+                                        color: #EB6B96 !important;
+                                    }
+                                }
+
+                                .checkbox01-parts::before {
+                                    border: 2px solid #F3D3D7;
+                                }
+
+                                .checkbox01-input + .checkbox01-parts::after {
+                                    border-bottom: 3px solid #F3D3D7;
+                                    border-right: 3px solid #F3D3D7;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .product {
+        .section {
+            width: 100%;
+            max-width: 1240px;
+            margin: 0 auto;
+
+            &.contents {
+                max-width: 100vw;
+            }
+
+            .title_bar {
+                text-align: center;
+
+                h2 {
+                    font-size: calc(24px + 0.5vw);
+                    display: inline-block;
+                    border-bottom: 2px solid #d7003a;
+                    margin: 20px 0;
+                }
+            }
+
+            .word {
+                text-align: center;
+                font-size: calc(24px - 1.5vw);
+                font-weight: bold;
+                padding: 10px 0;
+
+                h3 {
+                    display: inline-block;
+                    vertical-align: middle;
+                    margin: 20px 0;
+                    font-size: calc(24px - 1.5vw);
+                }
+
+                img {
+                    display: inline-block;
+                    margin-bottom: 10px;
+                }
+            }
+
+            &.product {
+                padding: 10px;
+
+                img {
+                    width: 100%;
+                    max-width: 900px;
+                    padding: 50px 0;
+                    display: block;
+                    margin: auto;
+                }
+
+                .word {
+                    text-align: left;
+                }
+
+                .title {
+                    font-size: calc(24px + 0.25vw);
+                }
+
+                .subTitle {
+                    font-size: calc(24px - 0.25vw);
+                    padding: 10px 0;
+                    display: inline-block;
+                }
+
+                .text {
+                    font-size: calc(24px - 1.25vw);
+                    font-weight: 300;
+                }
+            }
+
+            &.solution {
+
+                .title {
+                    font-size: calc(24px + 0.25vw);
+                    display: inline-block;
+                    padding: 10px 0;
+                }
+
+                .subTitle {
+                    font-size: calc(24px - 0.25vw);
+                    padding: 10px 0;
+                    display: inline-block;
+                }
+
+                .text {
+                    font-size: calc(24px - 0.25vw);
+                    font-weight: 300;
+                }
+
+                .sol-list {
+                    width: 100%;
+                    max-width: 930px;
+                    margin: 10px auto;
+                    padding: 20px;
+                    border: 1px solid #eee;
+                    border-radius: 5px;
+                    box-shadow: 0 0 5px rgba(0,0,0,.2);
+                    -webkit-box-shadow: 0 0 5px rgba(0,0,0,.2);
+
+
+                    .sol-detail {
+                        width: 100%;
+                        display: flex;
+                        margin: 0;
+
+                        > dt {
+                            display:none;
+                            flex-basis: 0%;
+
+                            img {
+                                width: auto;
+                            }
+                        }
+
+                        > dd {
+                            flex-basis: 100%;
+
+                            img {
+                                width: auto;
+                            }
+                        }
+
+                        .sol-detail-table {
+                            flex-basis: 69.9%;
+                            margin: 20px 0px 20px 10px;
+
+                            > dt, > dd {
+                                flex-basis: 100%;
+                                font-size: calc(24px - 0.5vw);
+                                /* css checkbox01 */
+                                label {
+                                    width: 100%;
+                                }
+
+                                .checkbox01-input {
+                                    display: none;
+                                }
+
+                                .checkbox01-parts {
+                                    padding-left: 20px;
+                                    position: relative;
+                                    margin-right: 20px;
+                                }
+
+                                .checkbox01-parts::before {
+                                    content: "";
+                                    display: block;
+                                    position: absolute;
+                                    top: 3px;
+                                    left: -2px;
+                                    width: 18px;
+                                    height: 18px;
+                                    border: 2px solid #C1D5E1;
+                                    border-radius: 4px;
+                                }
+
+                                .checkbox01-input + .checkbox01-parts {
+                                    color: #3F3F3F;
+                                }
+
+                                .checkbox01-input + .checkbox01-parts::after {
+                                    content: "";
+                                    display: block;
+                                    position: absolute;
+                                    top: 0px;
+                                    left: 5px;
+                                    width: 10px;
+                                    height: 17px;
+                                    transform: rotate(40deg);
+                                    border-bottom: 3px solid #c1d5e1;
+                                    border-right: 3px solid #c1d5e1;
+                                }
+                            }
+                        }
+                    }
+
+                    .sol-link {
+                        width: 100%;
+                        padding-top: 20px;
+                        border-top: 1px solid #ddd;
+
+                        > dt {
+                            width: 100%;
+                            padding: 10px;
+                        }
+
+                        > dd {
+                            width: 100%;
+                            text-align: center;
+                            padding: 10px;
+                            margin: auto;
+
+                            img {
+                                transition: all .3s;
+
+                                &:hover {
+                                    opacity: .7;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                    }
+
+                    &.me {
+                        .sol-detail {
+                            > dd {
+                                .sol-detail-table {
+                                    > dt, > dd {
+                                        label {
+                                            vertical-align: top;
+                                        }
+
+                                        span {
+                                            font-size: calc(24px - 1.5vw);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    &.cr {
+                        .sol-detail {
+                            > dd {
+                                span {
+                                    font-size: calc(24px - 0.25vw);
+                                    color: #157EBE;
+                                }
+
+                                img {
+                                    width: 60%;
+                                    margin: 0 auto;
+                                }
+
+                                .sol-detail-table {
+                                    > dt, > dd {
+                                        label {
+                                            vertical-align: top;
+                                        }
+
+                                        span {
+                                            font-size: calc(24px - 1.5vw);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    &.as {
+                        .sol-detail-table {
+                            > dt, > dd {
+                                label {
+                                    vertical-align: top;
+                                }
+
+                                span {
+                                    font-size: calc(24px - 1.5vw);
+                                }
+
+                                .checkbox01-parts::before {
+                                    border: 2px solid #F3D3D7;
+                                }
+
+                                .checkbox01-input + .checkbox01-parts::after {
+                                    border-bottom: 3px solid #F3D3D7;
+                                    border-right: 3px solid #F3D3D7;
+                                }
+                            }
+                        }
+                    }
+
+                    &.tl {
+                        .sol-detail-table {
+                            > dt, > dd {
+                                label {
+                                    vertical-align: top;
+
+                                    .text_01 {
+                                        color: #F4B51D !important;
+                                    }
+
+                                    .text_02 {
+                                        color: #29C738 !important;
+                                    }
+
+                                    .text_03 {
+                                        color: #28A7E1 !important;
+                                    }
+
+                                    .text_04 {
+                                        color: #EB6B96 !important;
+                                    }
+
+                                    span {
+                                        font-size: calc(24px - 1.5vw);
+                                    }
+                                }
+
+                                .checkbox01-parts::before {
+                                    border: 2px solid #F3D3D7;
+                                }
+
+                                .checkbox01-input + .checkbox01-parts::after {
+                                    border-bottom: 3px solid #F3D3D7;
+                                    border-right: 3px solid #F3D3D7;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
