@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="ja" xmlns:og="http://ogp.me/ns#" xmlns:mixi="http://mixi-platform.com/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
 <head>
@@ -110,37 +108,6 @@
         </ul>
     </section>
 
-    <section id="infomation">
-        <div class="innerSection">
-            <section class="inline">
-                <section class="info pull-left">
-                    <div class="listtitle">
-                        <span class="title">お知らせ</span><a href="./corporate/information/" class="morebutton" target="_blank">MORE</a>
-                    </div>
-                    <ul class="list-inline">
-                        <?=implode("\n", $output_news)?>
-                    </ul>
-                </section>
-                <section class="event pull-right">
-                    <div class="listtitle">
-                        <span class="title">イベント</span><a href="./corporate/event/" class="morebutton" target="_blank">MORE</a>
-                    </div>
-                    <ul class="list-inline">
-                    <?=implode("\n", $output_event)?>
-                    <?=implode("\n", $output_report)?>
-                    </ul>
-                </section>
-                <section class="lab pull-right">
-                    <div class="listtitle">
-                        <span class="title">コラム</span>
-                    </div>
-                    <ul class="list-inline">
-                    <?=implode("\n", $output_lab)?>
-                    </ul>
-                </section>
-            </section>
-        </div>
-    </section>
 
     <?php virtual('./corporate/Library/inc/footer.php'); ?> 
     <?php virtual('./corporate/Library/bodyend.php'); ?>
